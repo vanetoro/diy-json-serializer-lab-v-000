@@ -2,11 +2,9 @@
 <div id="product">
 <p id="p_name"><%= @product.name %></p>
 <p id="p_description"><%= @product.description %></p>
-<% binding.pry %>
 <p id="p_invetory"><%= @product.inventory%></p>
 
 </div>
-<% binding.pry %>
 <button class="js-next" data-id="<%= @product.id%>">Next Product</button>
 <script type="text/javascript" charset="utf-8">
 $(function() {
